@@ -20,11 +20,21 @@ apt full-upgrade
 
 ### Installing
 
-1. `sudo git clone <repo>`
-2. `cd '
+1. `sudo git clone https://github.com/a13xdagr8/debian-update.git`
+2. `cd debian-update'
 3. `sudo chmod +x update.sh`
 
 ### Executing/Running
 
 `cd` to script directory
 `sudo ./update.sh`
+
+## Screenshots
+
+![Searching for updates](images/search-updates.png)
+
+![Update Options](images/update-options.png)
+
+![Update Complete](images/update-complete.png)
+
+![Nothing to update](images/no-updates.png)
