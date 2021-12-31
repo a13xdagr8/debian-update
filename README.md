@@ -16,12 +16,13 @@ apt full-upgrade
 ### Dependencies
 
 - Debian Based Distro
-- Tested on Ubuntu and Kali
+- Tested on Ubuntu, Mint, and Kali
 
 ### Installing
 
 1. `sudo git clone <repo>`
-2. `chmod +x update.sh`
+2. `cd '
+3. `sudo chmod +x update.sh`
 
 ### Executing/Running
 

@@ -16,7 +16,7 @@ if [[ ! $(id -u) -eq 0 ]]; then
 fi
 
 echo "${gre}===================================${end}"
-echo "${yel}[-]      apt Update Script      [-]${end}"
+echo "${yel}[-]      APT Update Script      [-]${end}"
 echo "${gre}===================================${end}"
 echo "${yel}Last update was:${end} $(less /var/log/apt/history.log | grep 'Commandline: apt upgrade -y' -B1 | tail -2 | head -1 | awk '{print $2}')"
 echo
