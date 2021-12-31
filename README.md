@@ -6,10 +6,11 @@ Simple Script that uses apt to update Debian based systems.
 
 If I have to type something more than once then I will create an automated process. That's why this script exists. 
 
-This script basically updates your Debain system using the apt command. For example,
->apt update
-apt upgrade
-apt full-upgrade
+This script basically updates your Debain system using the apt command.
+
+- apt update
+- apt upgrade
+- apt full-upgrade
 
 ## Getting Started
 
@@ -21,13 +22,13 @@ apt full-upgrade
 ### Installing
 
 1. `sudo git clone https://github.com/a13xdagr8/debian-update.git`
-2. `cd debian-update'
+2. `cd debian-update`
 3. `sudo chmod +x update.sh`
 
 ### Executing/Running
 
-`cd` to script directory
-`sudo ./update.sh`
+1. `cd` to debian-update
+2. `sudo ./update.sh`
 
 ## Screenshots
 
